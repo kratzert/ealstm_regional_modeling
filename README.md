@@ -1,14 +1,12 @@
 # Catchment-Aware LSTMs for Regional Rainfall-Runoff Modeling
 
-Accompanying code for our HESS submission "Benchmarking a Catchment-Aware Long Short-Term Memory Network (LSTM) for Large-Scale Hydrological Modeling"
+Accompanying code for our HESS paper "Towards learning universal, regional, and local hydrological behaviors via machine learning applied to large-sample datasets"
 
 ```
-Kratzert, F., Klotz, D., Shalev, G., Klambauer, G., Hochreiter, S., Nearing, G., "Benchmarking
-a Catchment-Aware Long Short-Term Memory Network (LSTM) for Large-Scale Hydrological Modeling".
-submitted to Hydrol. Earth Syst. Sci. Discussions (2019)
+Kratzert, F., Klotz, D., Shalev, G., Klambauer, G., Hochreiter, S., and Nearing, G.: Towards learning universal, regional, and local hydrological behaviors via machine learning applied to large-sample datasets, Hydrol. Earth Syst. Sci., 23, 5089–5110, https://doi.org/10.5194/hess-23-5089-2019, 2019. 
 ```
 
-Preprint can be found here: [https://arxiv.org/abs/1907.08456](https://arxiv.org/abs/1907.08456)
+The manuscript can be found here (publicly available): [Towards learning universal, regional, and local hydrological behaviors via machine learning applied to large-sample datasets](https://www.hydrol-earth-syst-sci.net/23/5089/2019/hess-23-5089-2019.html)
 
 The code in this repository was used to produce all results and figures in our manuscript.
 
@@ -132,9 +130,17 @@ jupyter notebook
 If you use any of this code in your experiments, please make sure to cite the following publication
 
 ```
-Kratzert, F., Klotz, D., Shalev, G., Klambauer, G., Hochreiter, S., Nearing, G., "Benchmarking
-a Catchment-Aware Long Short-Term Memory Network (LSTM) for Large-Scale Hydrological Modeling".
-submitted to Hydrol. Earth Syst. Sci. Discussions (2019)
+@article{kratzert2019universal,
+author = {Kratzert, F. and Klotz, D. and Shalev, G. and Klambauer, G. and Hochreiter, S. and Nearing, G.},
+title = {Towards learning universal, regional, and local hydrological behaviors via machine learning applied to large-sample datasets},
+journal = {Hydrology and Earth System Sciences},
+volume = {23},
+year = {2019},
+number = {12},
+pages = {5089--5110},
+url = {https://www.hydrol-earth-syst-sci.net/23/5089/2019/},
+doi = {10.5194/hess-23-5089-2019}
+}
 ```
 
 ## License of our code
