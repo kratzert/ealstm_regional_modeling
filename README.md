@@ -3,7 +3,9 @@
 Accompanying code for our HESS paper "Towards learning universal, regional, and local hydrological behaviors via machine learning applied to large-sample datasets"
 
 ```
-Kratzert, F., Klotz, D., Shalev, G., Klambauer, G., Hochreiter, S., and Nearing, G.: Towards learning universal, regional, and local hydrological behaviors via machine learning applied to large-sample datasets, Hydrol. Earth Syst. Sci., 23, 5089–5110, https://doi.org/10.5194/hess-23-5089-2019, 2019. 
+Kratzert, F., Klotz, D., Shalev, G., Klambauer, G., Hochreiter, S., and Nearing, G.: Towards learning 
+universal, regional, and local hydrological behaviors via machine learning applied to large-sample 
+datasets, Hydrol. Earth Syst. Sci., 23, 5089–5110, https://doi.org/10.5194/hess-23-5089-2019, 2019. 
 ```
 
 The manuscript can be found here (publicly available): [Towards learning universal, regional, and local hydrological behaviors via machine learning applied to large-sample datasets](https://www.hydrol-earth-syst-sci.net/23/5089/2019/hess-23-5089-2019.html)
@@ -132,7 +134,8 @@ If you use any of this code in your experiments, please make sure to cite the fo
 ```
 @article{kratzert2019universal,
 author = {Kratzert, F. and Klotz, D. and Shalev, G. and Klambauer, G. and Hochreiter, S. and Nearing, G.},
-title = {Towards learning universal, regional, and local hydrological behaviors via machine learning applied to large-sample datasets},
+title = {Towards learning universal, regional, and local hydrological behaviors via machine learning 
+applied to large-sample datasets},
 journal = {Hydrology and Earth System Sciences},
 volume = {23},
 year = {2019},
