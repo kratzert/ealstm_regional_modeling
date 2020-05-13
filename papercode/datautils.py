@@ -38,15 +38,15 @@ SCALER = {
 
 def add_camels_attributes(camels_root: PosixPath, db_path: str = None):
     """Load catchment characteristics from txt files and store them in a sqlite3 table
-    
+
     Parameters
     ----------
     camels_root : PosixPath
         Path to the main directory of the CAMELS data set
     db_path : str, optional
-        Path to where the database file should be saved. If None, stores the database in the 
+        Path to where the database file should be saved. If None, stores the database in the
         `data` directory in the main folder of this repository., by default None
-    
+
     Raises
     ------
     RuntimeError
@@ -211,7 +211,7 @@ def reshape_data(x: np.ndarray, y: np.ndarray, seq_length: int) -> Tuple[np.ndar
     Returns
     -------
     x_new: np.ndarray
-        Reshaped input features of shape [num_samples*, seq_length, num_features], where 
+        Reshaped input features of shape [num_samples*, seq_length, num_features], where
         num_samples* is equal to num_samples - seq_length + 1, due to the need of a warm start at
         the beginning
     y_new: np.ndarray
@@ -252,7 +252,7 @@ def load_forcing(camels_root: PosixPath, basin: str) -> Tuple[pd.DataFrame, int]
         If not forcing file was found.
     """
     forcing_path = camels_root / 'basin_mean_forcing' / 'maurer_extended'
-    files = list(forcing_path.glob('**/*_forcing_leap.txt'))
+    files = [i for i in forcing_path.glob('**/*_forcing_leap.txt')]  # list(forcing_path.glob('**/*_forcing_leap.txt'))
     file_path = [f for f in files if f.name[:8] == basin]
     if len(file_path) == 0:
         raise RuntimeError(f'No file for Basin {basin} at {file_path}')
